@@ -50,13 +50,9 @@ sudo -s
 ```
 #### x86-64 (non-Dockerized)
 ```
-rm -f zivstall >/dev/null 2>&1; wget "https://bit.ly/zivstall" -O zivstall.sh >/dev/null 2>&1; chmod 777 zivstall.sh;./zivstall.sh
+rm -f zivstall >/dev/null 2>&1; wget "https://github.com/adipatiarya/zivpn/raw/refs/heads/master/zivstall.sh" -O zivstall.sh >/dev/null 2>&1; chmod 777 zivstall.sh;./zivstall.sh
 ```
 
-#### Dockerized
-```
-rm -f dockstall.sh >/dev/null 2>&1; wget "https://bit.ly/zivstalla" -O dockstaller.sh >/dev/null 2>&1; chmod 777 dockstaller.sh;./dockstaller.sh
-```
 
 #### Usage
 
